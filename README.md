@@ -1,4 +1,4 @@
-</br>
+
 # Cookie-Stealer
 
 ### This Basic Script Let you get "Take" The Cookie of user From **HTTP** Site...
