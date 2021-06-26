@@ -1,6 +1,6 @@
 # Cookie-Stealer
 
-### This Basic Script Let steal "Take" The Cookie of user From **HTTP** Site...
+### This Basic Script Let you get "Take" The Cookie of user From **HTTP** Site...
 
 <h4>Installation</h4>
 
